@@ -1,0 +1,80 @@
+h1 {
+
+    color: red;
+    margin: 20px;
+}
+
+.header h1 {
+    display: flex;
+    background-color: rgb(173, 173, 233);
+    border: solid;
+    justify-content: center;
+    
+
+}
+
+.menu  {
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+ color: white;
+}
+
+.menu a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+.item  {
+  
+    background-color: sandybrown;
+    position: relative;
+}
+
+.item p {
+    position :absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+   opacity: 0.33;
+}
+
+.fotter {
+    display: flex;
+    justify-content: flex-end;
+    background-color: royalblue;
+    
+}
+
+p,h2 {
+    text-align: center;
+    background-color: tomato;
+    margin-left: 30px;
+}
+
+body {
+    background-color:rgb(128, 128, 128);
+}
